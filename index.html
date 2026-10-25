@@ -1,0 +1,79 @@
+Here is the complete solution for Assignment 3.2: Images in HTML.
+
+To complete this assignment, you need to set up a specific folder structure on your computer and integrate the images into your portfolio HTML file using the correct attributes.
+
+1. Folder Structure Setup (Tasks 1 & 4)
+Create a project folder on your computer and organize your files like this:
+
+Plaintext
+my-portfolio/
+├── index.html
+└── images/
+    ├── profile.jpg
+    ├── project1.jpg
+    └── certificate.jpg
+*(Note: You can use any 3 sample images you like, just make sure to rename them or update the code to match your filenames!)*
+2. The Portfolio Code (index.html) (Tasks 2, 3, & 5)
+Save the following code in your index.html file. Notice how each <img> tag uses src (correct path inside the images folder), alt (meaningful description), width, and height.
+
+HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio - Images Section</title>
+</head>
+<body>
+
+    <header>
+        <h1>My Web Developer Portfolio</h1>
+        <p>Welcome to my portfolio featuring my photo, project work, and achievements!</p>
+        <hr>
+    </header>
+
+    <main>
+        <!-- Images Section for Assignment 3.2 -->
+        <section id="portfolio-images">
+            <h2>Portfolio Gallery</h2>
+            <p>Here are a few images showcasing me, my projects, and my credentials:</p>
+
+            <!-- Image 1: Profile Photo -->
+            <div>
+                <h3>1. Profile Photo</h3>
+                <img src="images/profile.jpg" alt="Portrait photo of Alex smiling in a professional setting" width="300" height="200">
+            </div>
+
+            <!-- Image 2: Project Screenshot -->
+            <div>
+                <h3>2. Featured Project</h3>
+                <img src="images/project1.jpg" alt="Screenshot of a responsive e-commerce web dashboard interface" width="400" height="250">
+            </div>
+
+            <!-- Image 3: Certificate -->
+            <div>
+                <h3>3. Achievement / Certificate</h3>
+                <img src="images/certificate.jpg" alt="HTML and CSS Foundations Course Completion Certificate issued by Tech Academy" width="350" height="250">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <hr>
+        <p>&copy; 2026 My Portfolio. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
+Requirements Checklist Met:
+images folder created: Placed inside your main project directory.
+
+At least 3 images added: Included a profile photo, project screenshot, and certificate.
+
+Required attributes used: Every <img> tag includes src, alt, width, and height.
+
+Correct image paths: Linked properly using the relative path structure (images/filename.jpg).
+
+Meaningful alt text: Written descriptive alt attributes for accessibility and screen readers.
+
+Browser check (Task 6): Open index.html in your browser to verify that all images load correctly from the images/ directory.
